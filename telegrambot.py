@@ -39,8 +39,7 @@ vectorstore = None # #global
 #старт бота
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, 
-    text="Привет, Я тестовый бот, напиши номер своей скидочной карты и узнай сколько бонусов у тебя! \
-Бонусами можно оплатить до 25% от суммы заказа в аптеках Экофарм!")
+    text="Привет, Я тестовый бот")
     
 
 async def load(update: Update, context: ContextTypes.DEFAULT_TYPE):
